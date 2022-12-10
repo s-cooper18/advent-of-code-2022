@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func main() {
+func day1() {
 	filename := "input.txt"
 	file, err := ioutil.ReadFile(filename)
 
